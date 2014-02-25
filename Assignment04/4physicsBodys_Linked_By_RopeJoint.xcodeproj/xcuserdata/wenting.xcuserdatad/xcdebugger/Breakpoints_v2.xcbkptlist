@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "4physicsBodys_Linked_By_RopeJoint/MyScene.m"
-            timestampString = "415040314.059033"
+            timestampString = "415043381.93489"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
             landmarkName = "-spawnSquares"
             landmarkType = "5">
          </BreakpointContent>

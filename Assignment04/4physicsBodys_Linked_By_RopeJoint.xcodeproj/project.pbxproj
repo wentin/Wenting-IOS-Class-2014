@@ -211,6 +211,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = YuryGitman;
 				TargetAttributes = {
+					D56006BF18B2896700D0C342 = {
+						DevelopmentTeam = RHS54MNZHX;
+					};
 					D56006E718B2896800D0C342 = {
 						TestTargetID = D56006BF18B2896700D0C342;
 					};
@@ -392,10 +395,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "4physicsBodys_Linked_By_RopeJoint/4physicsBodys_Linked_By_RopeJoint-Prefix.pch";
 				INFOPLIST_FILE = "4physicsBodys_Linked_By_RopeJoint/4physicsBodys_Linked_By_RopeJoint-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -406,10 +412,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "4physicsBodys_Linked_By_RopeJoint/4physicsBodys_Linked_By_RopeJoint-Prefix.pch";
 				INFOPLIST_FILE = "4physicsBodys_Linked_By_RopeJoint/4physicsBodys_Linked_By_RopeJoint-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -476,6 +485,7 @@
 				D56006FB18B2896800D0C342 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D56006FC18B2896800D0C342 /* Build configuration list for PBXNativeTarget "4physicsBodys_Linked_By_RopeJointTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +494,7 @@
 				D56006FE18B2896800D0C342 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

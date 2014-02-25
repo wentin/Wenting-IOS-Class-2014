@@ -26,6 +26,8 @@
 
 
 @property SKPhysicsJoint* myWaist;
+@property SKPhysicsJoint* myLeftShoulder;
+@property SKPhysicsJoint* myRightShoulder;
 @property SKPhysicsJoint* myRopeJoint;
 @property SKPhysicsJoint* myRopeJoint1;
 @property SKPhysicsJoint* myRopeJoint2;
@@ -45,6 +47,13 @@
     _myWaist = [SKPhysicsJointLimit jointWithBodyA:_myBody.physicsBody bodyB:_mySquare1.physicsBody anchorA:_myBody.position anchorB:_mySquare1.position];
     
     [self.physicsWorld addJoint:_myWaist];
+    
+    
+    
+    _myLeftShoulder = [SKPhysicsJointPin jointWithBodyA:_myBody.physicsBody bodyB:_myLeftArm.physicsBody anchor: CGPointMake(235,245)];
+    
+    [self.physicsWorld addJoint:_myLeftShoulder];
+    
     
     
     _myRopeJoint = [SKPhysicsJointLimit jointWithBodyA:_mySquare1.physicsBody bodyB:_mySquare2.physicsBody anchorA:_mySquare1.position anchorB:_mySquare2.position];
@@ -83,6 +92,14 @@
     
     _myBody.physicsBody = [SKPhysicsBody bodyWithRectangleOfSize:_myBody.size];
     [self addChild:_myBody];
+    
+    
+    _myLeftArm =[[SKSpriteNode alloc]initWithColor:[SKColor purpleColor] size:CGSizeMake(30, 100)];
+    [_myLeftArm setPosition:CGPointMake(235,235)];
+    
+    _myLeftArm.physicsBody = [SKPhysicsBody bodyWithRectangleOfSize:_myLeftArm.size];
+    [self addChild:_myLeftArm];
+
     
     _mySquare1 =[[SKSpriteNode alloc]initWithColor:[SKColor redColor] size:CGSizeMake(70, 70)];
     _mySquare2 =[[SKSpriteNode alloc]initWithColor:[SKColor purpleColor] size:CGSizeMake(70, 70)];
