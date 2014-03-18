@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ADB17AF18D826050038ED10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADB17AE18D826050038ED10 /* Foundation.framework */; };
+		1ADB17B118D826050038ED10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADB17B018D826050038ED10 /* CoreGraphics.framework */; };
+		1ADB17B318D826050038ED10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADB17B218D826050038ED10 /* UIKit.framework */; };
+		1ADB17B518D826050038ED10 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADB17B418D826050038ED10 /* SpriteKit.framework */; };
+		1ADB17BB18D826050038ED10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB17B918D826050038ED10 /* InfoPlist.strings */; };
+		1ADB17BD18D826050038ED10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB17BC18D826050038ED10 /* main.m */; };
+		1ADB17C118D826050038ED10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB17C018D826050038ED10 /* AppDelegate.m */; };
+		1ADB17C418D826050038ED10 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB17C218D826050038ED10 /* Main_iPhone.storyboard */; };
+		1ADB17C718D826050038ED10 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB17C518D826050038ED10 /* Main_iPad.storyboard */; };
+		1ADB17CA18D826050038ED10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB17C918D826050038ED10 /* ViewController.m */; };
+		1ADB17CD18D826050038ED10 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB17CC18D826050038ED10 /* MyScene.m */; };
+		1ADB17CF18D826050038ED10 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB17CE18D826050038ED10 /* Spaceship.png */; };
+		1ADB17D118D826050038ED10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB17D018D826050038ED10 /* Images.xcassets */; };
+		1ADB17D818D826050038ED10 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADB17D718D826050038ED10 /* XCTest.framework */; };
+		1ADB17D918D826050038ED10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADB17AE18D826050038ED10 /* Foundation.framework */; };
+		1ADB17DA18D826050038ED10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADB17B218D826050038ED10 /* UIKit.framework */; };
+		1ADB17E218D826050038ED10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB17E018D826050038ED10 /* InfoPlist.strings */; };
+		1ADB17E418D826050038ED10 /* bicycle_chainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB17E318D826050038ED10 /* bicycle_chainTests.m */; };
+		1ADB17F318D8267B0038ED10 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB17EE18D8267B0038ED10 /* circle.png */; };
+		1ADB17F418D8267B0038ED10 /* octagon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB17EF18D8267B0038ED10 /* octagon.png */; };
+		1ADB17F518D8267B0038ED10 /* sand.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB17F018D8267B0038ED10 /* sand.png */; };
+		1ADB17F618D8267B0038ED10 /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB17F118D8267B0038ED10 /* square.png */; };
+		1ADB17F718D8267B0038ED10 /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB17F218D8267B0038ED10 /* triangle.png */; };
+		1ADB17F918D82FCE0038ED10 /* chain.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB17F818D82FCE0038ED10 /* chain.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1ADB17DB18D826050038ED10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ADB17A318D826050038ED10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ADB17AA18D826050038ED10;
+			remoteInfo = bicycle_chain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1ADB17AB18D826050038ED10 /* bicycle_chain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bicycle_chain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADB17AE18D826050038ED10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1ADB17B018D826050038ED10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1ADB17B218D826050038ED10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1ADB17B418D826050038ED10 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		1ADB17B818D826050038ED10 /* bicycle_chain-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bicycle_chain-Info.plist"; sourceTree = "<group>"; };
+		1ADB17BA18D826050038ED10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1ADB17BC18D826050038ED10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1ADB17BE18D826050038ED10 /* bicycle_chain-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bicycle_chain-Prefix.pch"; sourceTree = "<group>"; };
+		1ADB17BF18D826050038ED10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1ADB17C018D826050038ED10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1ADB17C318D826050038ED10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		1ADB17C618D826050038ED10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		1ADB17C818D826050038ED10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1ADB17C918D826050038ED10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1ADB17CB18D826050038ED10 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		1ADB17CC18D826050038ED10 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		1ADB17CE18D826050038ED10 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		1ADB17D018D826050038ED10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1ADB17D618D826050038ED10 /* bicycle_chainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bicycle_chainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADB17D718D826050038ED10 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1ADB17DF18D826050038ED10 /* bicycle_chainTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bicycle_chainTests-Info.plist"; sourceTree = "<group>"; };
+		1ADB17E118D826050038ED10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1ADB17E318D826050038ED10 /* bicycle_chainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bicycle_chainTests.m; sourceTree = "<group>"; };
+		1ADB17EE18D8267B0038ED10 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		1ADB17EF18D8267B0038ED10 /* octagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = octagon.png; sourceTree = "<group>"; };
+		1ADB17F018D8267B0038ED10 /* sand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sand.png; sourceTree = "<group>"; };
+		1ADB17F118D8267B0038ED10 /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square.png; sourceTree = "<group>"; };
+		1ADB17F218D8267B0038ED10 /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle.png; sourceTree = "<group>"; };
+		1ADB17F818D82FCE0038ED10 /* chain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chain.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ADB17A818D826050038ED10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADB17B118D826050038ED10 /* CoreGraphics.framework in Frameworks */,
+				1ADB17B318D826050038ED10 /* UIKit.framework in Frameworks */,
+				1ADB17B518D826050038ED10 /* SpriteKit.framework in Frameworks */,
+				1ADB17AF18D826050038ED10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADB17D318D826050038ED10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADB17D818D826050038ED10 /* XCTest.framework in Frameworks */,
+				1ADB17DA18D826050038ED10 /* UIKit.framework in Frameworks */,
+				1ADB17D918D826050038ED10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ADB17A218D826050038ED10 = {
+			isa = PBXGroup;
+			children = (
+				1ADB17B618D826050038ED10 /* bicycle_chain */,
+				1ADB17DD18D826050038ED10 /* bicycle_chainTests */,
+				1ADB17AD18D826050038ED10 /* Frameworks */,
+				1ADB17AC18D826050038ED10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1ADB17AC18D826050038ED10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ADB17AB18D826050038ED10 /* bicycle_chain.app */,
+				1ADB17D618D826050038ED10 /* bicycle_chainTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ADB17AD18D826050038ED10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1ADB17AE18D826050038ED10 /* Foundation.framework */,
+				1ADB17B018D826050038ED10 /* CoreGraphics.framework */,
+				1ADB17B218D826050038ED10 /* UIKit.framework */,
+				1ADB17B418D826050038ED10 /* SpriteKit.framework */,
+				1ADB17D718D826050038ED10 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1ADB17B618D826050038ED10 /* bicycle_chain */ = {
+			isa = PBXGroup;
+			children = (
+				1AE3528118D842DA00BB52D8 /* iPad */,
+				1ADB17ED18D8267B0038ED10 /* Shapes */,
+				1ADB17BF18D826050038ED10 /* AppDelegate.h */,
+				1ADB17C018D826050038ED10 /* AppDelegate.m */,
+				1ADB17C218D826050038ED10 /* Main_iPhone.storyboard */,
+				1ADB17C518D826050038ED10 /* Main_iPad.storyboard */,
+				1ADB17C818D826050038ED10 /* ViewController.h */,
+				1ADB17C918D826050038ED10 /* ViewController.m */,
+				1ADB17CB18D826050038ED10 /* MyScene.h */,
+				1ADB17CC18D826050038ED10 /* MyScene.m */,
+				1ADB17CE18D826050038ED10 /* Spaceship.png */,
+				1ADB17D018D826050038ED10 /* Images.xcassets */,
+				1ADB17B718D826050038ED10 /* Supporting Files */,
+			);
+			path = bicycle_chain;
+			sourceTree = "<group>";
+		};
+		1ADB17B718D826050038ED10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1ADB17B818D826050038ED10 /* bicycle_chain-Info.plist */,
+				1ADB17B918D826050038ED10 /* InfoPlist.strings */,
+				1ADB17BC18D826050038ED10 /* main.m */,
+				1ADB17BE18D826050038ED10 /* bicycle_chain-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1ADB17DD18D826050038ED10 /* bicycle_chainTests */ = {
+			isa = PBXGroup;
+			children = (
+				1ADB17E318D826050038ED10 /* bicycle_chainTests.m */,
+				1ADB17DE18D826050038ED10 /* Supporting Files */,
+			);
+			path = bicycle_chainTests;
+			sourceTree = "<group>";
+		};
+		1ADB17DE18D826050038ED10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1ADB17DF18D826050038ED10 /* bicycle_chainTests-Info.plist */,
+				1ADB17E018D826050038ED10 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1ADB17ED18D8267B0038ED10 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				1ADB17F818D82FCE0038ED10 /* chain.png */,
+				1ADB17EE18D8267B0038ED10 /* circle.png */,
+				1ADB17EF18D8267B0038ED10 /* octagon.png */,
+				1ADB17F018D8267B0038ED10 /* sand.png */,
+				1ADB17F118D8267B0038ED10 /* square.png */,
+				1ADB17F218D8267B0038ED10 /* triangle.png */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		1AE3528118D842DA00BB52D8 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ADB17AA18D826050038ED10 /* bicycle_chain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ADB17E718D826050038ED10 /* Build configuration list for PBXNativeTarget "bicycle_chain" */;
+			buildPhases = (
+				1ADB17A718D826050038ED10 /* Sources */,
+				1ADB17A818D826050038ED10 /* Frameworks */,
+				1ADB17A918D826050038ED10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bicycle_chain;
+			productName = bicycle_chain;
+			productReference = 1ADB17AB18D826050038ED10 /* bicycle_chain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1ADB17D518D826050038ED10 /* bicycle_chainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ADB17EA18D826050038ED10 /* Build configuration list for PBXNativeTarget "bicycle_chainTests" */;
+			buildPhases = (
+				1ADB17D218D826050038ED10 /* Sources */,
+				1ADB17D318D826050038ED10 /* Frameworks */,
+				1ADB17D418D826050038ED10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ADB17DC18D826050038ED10 /* PBXTargetDependency */,
+			);
+			name = bicycle_chainTests;
+			productName = bicycle_chainTests;
+			productReference = 1ADB17D618D826050038ED10 /* bicycle_chainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ADB17A318D826050038ED10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = wzhang78;
+				TargetAttributes = {
+					1ADB17D518D826050038ED10 = {
+						TestTargetID = 1ADB17AA18D826050038ED10;
+					};
+				};
+			};
+			buildConfigurationList = 1ADB17A618D826050038ED10 /* Build configuration list for PBXProject "bicycle_chain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1ADB17A218D826050038ED10;
+			productRefGroup = 1ADB17AC18D826050038ED10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ADB17AA18D826050038ED10 /* bicycle_chain */,
+				1ADB17D518D826050038ED10 /* bicycle_chainTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ADB17A918D826050038ED10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADB17CF18D826050038ED10 /* Spaceship.png in Resources */,
+				1ADB17F718D8267B0038ED10 /* triangle.png in Resources */,
+				1ADB17F618D8267B0038ED10 /* square.png in Resources */,
+				1ADB17F518D8267B0038ED10 /* sand.png in Resources */,
+				1ADB17F418D8267B0038ED10 /* octagon.png in Resources */,
+				1ADB17D118D826050038ED10 /* Images.xcassets in Resources */,
+				1ADB17F918D82FCE0038ED10 /* chain.png in Resources */,
+				1ADB17C718D826050038ED10 /* Main_iPad.storyboard in Resources */,
+				1ADB17F318D8267B0038ED10 /* circle.png in Resources */,
+				1ADB17C418D826050038ED10 /* Main_iPhone.storyboard in Resources */,
+				1ADB17BB18D826050038ED10 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADB17D418D826050038ED10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADB17E218D826050038ED10 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ADB17A718D826050038ED10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADB17CD18D826050038ED10 /* MyScene.m in Sources */,
+				1ADB17CA18D826050038ED10 /* ViewController.m in Sources */,
+				1ADB17C118D826050038ED10 /* AppDelegate.m in Sources */,
+				1ADB17BD18D826050038ED10 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADB17D218D826050038ED10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADB17E418D826050038ED10 /* bicycle_chainTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1ADB17DC18D826050038ED10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ADB17AA18D826050038ED10 /* bicycle_chain */;
+			targetProxy = 1ADB17DB18D826050038ED10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1ADB17B918D826050038ED10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ADB17BA18D826050038ED10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1ADB17C218D826050038ED10 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ADB17C318D826050038ED10 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		1ADB17C518D826050038ED10 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ADB17C618D826050038ED10 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		1ADB17E018D826050038ED10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ADB17E118D826050038ED10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1ADB17E518D826050038ED10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1ADB17E618D826050038ED10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ADB17E818D826050038ED10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bicycle_chain/bicycle_chain-Prefix.pch";
+				INFOPLIST_FILE = "bicycle_chain/bicycle_chain-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1ADB17E918D826050038ED10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bicycle_chain/bicycle_chain-Prefix.pch";
+				INFOPLIST_FILE = "bicycle_chain/bicycle_chain-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1ADB17EB18D826050038ED10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/bicycle_chain.app/bicycle_chain";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bicycle_chain/bicycle_chain-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "bicycle_chainTests/bicycle_chainTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1ADB17EC18D826050038ED10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/bicycle_chain.app/bicycle_chain";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bicycle_chain/bicycle_chain-Prefix.pch";
+				INFOPLIST_FILE = "bicycle_chainTests/bicycle_chainTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ADB17A618D826050038ED10 /* Build configuration list for PBXProject "bicycle_chain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADB17E518D826050038ED10 /* Debug */,
+				1ADB17E618D826050038ED10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ADB17E718D826050038ED10 /* Build configuration list for PBXNativeTarget "bicycle_chain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADB17E818D826050038ED10 /* Debug */,
+				1ADB17E918D826050038ED10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ADB17EA18D826050038ED10 /* Build configuration list for PBXNativeTarget "bicycle_chainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADB17EB18D826050038ED10 /* Debug */,
+				1ADB17EC18D826050038ED10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ADB17A318D826050038ED10 /* Project object */;
+}
