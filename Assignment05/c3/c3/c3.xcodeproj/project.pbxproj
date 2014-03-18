@@ -25,6 +25,11 @@
 		1A1704DB18D8A7830032DE0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1704B318D8A7830032DE0F /* UIKit.framework */; };
 		1A1704E318D8A7830032DE0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A1704E118D8A7830032DE0F /* InfoPlist.strings */; };
 		1A1704E518D8A7830032DE0F /* c3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1704E418D8A7830032DE0F /* c3Tests.m */; };
+		1A1704F418D8A7B50032DE0F /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1704EF18D8A7B50032DE0F /* circle.png */; };
+		1A1704F518D8A7B50032DE0F /* octagon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1704F018D8A7B50032DE0F /* octagon.png */; };
+		1A1704F618D8A7B50032DE0F /* sand.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1704F118D8A7B50032DE0F /* sand.png */; };
+		1A1704F718D8A7B50032DE0F /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1704F218D8A7B50032DE0F /* square.png */; };
+		1A1704F818D8A7B50032DE0F /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1704F318D8A7B50032DE0F /* triangle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +67,11 @@
 		1A1704E018D8A7830032DE0F /* c3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "c3Tests-Info.plist"; sourceTree = "<group>"; };
 		1A1704E218D8A7830032DE0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1A1704E418D8A7830032DE0F /* c3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = c3Tests.m; sourceTree = "<group>"; };
+		1A1704EF18D8A7B50032DE0F /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		1A1704F018D8A7B50032DE0F /* octagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = octagon.png; sourceTree = "<group>"; };
+		1A1704F118D8A7B50032DE0F /* sand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sand.png; sourceTree = "<group>"; };
+		1A1704F218D8A7B50032DE0F /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square.png; sourceTree = "<group>"; };
+		1A1704F318D8A7B50032DE0F /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +133,7 @@
 		1A1704B718D8A7830032DE0F /* c3 */ = {
 			isa = PBXGroup;
 			children = (
+				1A1704EE18D8A7B50032DE0F /* Shapes */,
 				1A1704C018D8A7830032DE0F /* AppDelegate.h */,
 				1A1704C118D8A7830032DE0F /* AppDelegate.m */,
 				1A1704C318D8A7830032DE0F /* Main_iPhone.storyboard */,
@@ -165,6 +176,18 @@
 				1A1704E118D8A7830032DE0F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A1704EE18D8A7B50032DE0F /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				1A1704EF18D8A7B50032DE0F /* circle.png */,
+				1A1704F018D8A7B50032DE0F /* octagon.png */,
+				1A1704F118D8A7B50032DE0F /* sand.png */,
+				1A1704F218D8A7B50032DE0F /* square.png */,
+				1A1704F318D8A7B50032DE0F /* triangle.png */,
+			);
+			path = Shapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,8 +267,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A1704D018D8A7830032DE0F /* Spaceship.png in Resources */,
+				1A1704F818D8A7B50032DE0F /* triangle.png in Resources */,
+				1A1704F718D8A7B50032DE0F /* square.png in Resources */,
+				1A1704F618D8A7B50032DE0F /* sand.png in Resources */,
+				1A1704F518D8A7B50032DE0F /* octagon.png in Resources */,
 				1A1704D218D8A7830032DE0F /* Images.xcassets in Resources */,
 				1A1704C818D8A7830032DE0F /* Main_iPad.storyboard in Resources */,
+				1A1704F418D8A7B50032DE0F /* circle.png in Resources */,
 				1A1704C518D8A7830032DE0F /* Main_iPhone.storyboard in Resources */,
 				1A1704BC18D8A7830032DE0F /* InfoPlist.strings in Resources */,
 			);

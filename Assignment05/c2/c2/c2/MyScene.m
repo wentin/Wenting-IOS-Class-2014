@@ -1,10 +1,11 @@
 //
 //  MyScene.m
-//  SpriteKitPhysicsTest
+//  c2
 //
-//  Created by Main Account on 8/30/13.
-//  Copyright (c) 2013 Razeware LLC. All rights reserved.
+//  Created by wzhang78 on 3/18/14.
+//  Copyright (c) 2014 wzhang78. All rights reserved.
 //
+
 
 #import "MyScene.h"
 
