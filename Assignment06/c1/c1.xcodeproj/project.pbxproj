@@ -25,6 +25,32 @@
 		1A17053118D8A8590032DE0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A17050918D8A8590032DE0F /* UIKit.framework */; };
 		1A17053918D8A8590032DE0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A17053718D8A8590032DE0F /* InfoPlist.strings */; };
 		1A17053B18D8A8590032DE0F /* c1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A17053A18D8A8590032DE0F /* c1Tests.m */; };
+		1A17056A18D8A9040032DE0F /* background-desat.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A17054618D8A9040032DE0F /* background-desat.png */; };
+		1A17056B18D8A9040032DE0F /* background-desat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A17054718D8A9040032DE0F /* background-desat@2x.png */; };
+		1A17056C18D8A9040032DE0F /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A17054818D8A9040032DE0F /* background.png */; };
+		1A17056D18D8A9040032DE0F /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A17054918D8A9040032DE0F /* background@2x.png */; };
+		1A17056E18D8A9040032DE0F /* perlin.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A17054B18D8A9040032DE0F /* perlin.c */; };
+		1A17056F18D8A9040032DE0F /* level1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A17054E18D8A9040032DE0F /* level1.plist */; };
+		1A17057018D8A9040032DE0F /* level2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A17054F18D8A9040032DE0F /* level2.plist */; };
+		1A17057118D8A9040032DE0F /* level3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A17055018D8A9040032DE0F /* level3.plist */; };
+		1A17057218D8A9040032DE0F /* level4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A17055118D8A9040032DE0F /* level4.plist */; };
+		1A17057318D8A9040032DE0F /* level5.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A17055218D8A9040032DE0F /* level5.plist */; };
+		1A17057418D8A9040032DE0F /* level6.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A17055318D8A9040032DE0F /* level6.plist */; };
+		1A17057518D8A9040032DE0F /* level7.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A17055418D8A9040032DE0F /* level7.plist */; };
+		1A17057618D8A9040032DE0F /* bgMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A17055618D8A9040032DE0F /* bgMusic.mp3 */; };
+		1A17057718D8A9040032DE0F /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A17055718D8A9040032DE0F /* lose.mp3 */; };
+		1A17057818D8A9040032DE0F /* pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A17055818D8A9040032DE0F /* pop.mp3 */; };
+		1A17057918D8A9040032DE0F /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A17055918D8A9040032DE0F /* win.mp3 */; };
+		1A17057A18D8A9040032DE0F /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1A17055A18D8A9040032DE0F /* sprites.atlas */; };
+		1A17057B18D8A9040032DE0F /* BookTrailer.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 1A17055C18D8A9040032DE0F /* BookTrailer.m4v */; };
+		1A17057C18D8A9040032DE0F /* loop.mov in Resources */ = {isa = PBXBuildFile; fileRef = 1A17055D18D8A9040032DE0F /* loop.mov */; };
+		1A17057D18D8A9040032DE0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A17055E18D8A9040032DE0F /* Images.xcassets */; };
+		1A17057E18D8A9040032DE0F /* SKAction+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A17056118D8A9040032DE0F /* SKAction+SKTExtras.m */; };
+		1A17057F18D8A9040032DE0F /* SKEmitterNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A17056318D8A9040032DE0F /* SKEmitterNode+SKTExtras.m */; };
+		1A17058018D8A9040032DE0F /* SKNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A17056518D8A9040032DE0F /* SKNode+SKTExtras.m */; };
+		1A17058118D8A9040032DE0F /* SKTAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A17056718D8A9040032DE0F /* SKTAudio.m */; };
+		1A17058218D8A9040032DE0F /* SKTUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A17056918D8A9040032DE0F /* SKTUtils.mm */; };
+		1A17058518D8A93C0032DE0F /* SKSpriteNode+DebugDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A17058418D8A93C0032DE0F /* SKSpriteNode+DebugDraw.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +88,39 @@
 		1A17053618D8A8590032DE0F /* c1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "c1Tests-Info.plist"; sourceTree = "<group>"; };
 		1A17053818D8A8590032DE0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1A17053A18D8A8590032DE0F /* c1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = c1Tests.m; sourceTree = "<group>"; };
+		1A17054618D8A9040032DE0F /* background-desat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-desat.png"; sourceTree = "<group>"; };
+		1A17054718D8A9040032DE0F /* background-desat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-desat@2x.png"; sourceTree = "<group>"; };
+		1A17054818D8A9040032DE0F /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		1A17054918D8A9040032DE0F /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		1A17054B18D8A9040032DE0F /* perlin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = perlin.c; sourceTree = "<group>"; };
+		1A17054C18D8A9040032DE0F /* perlin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = perlin.h; sourceTree = "<group>"; };
+		1A17054E18D8A9040032DE0F /* level1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = level1.plist; sourceTree = "<group>"; };
+		1A17054F18D8A9040032DE0F /* level2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = level2.plist; sourceTree = "<group>"; };
+		1A17055018D8A9040032DE0F /* level3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = level3.plist; sourceTree = "<group>"; };
+		1A17055118D8A9040032DE0F /* level4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = level4.plist; sourceTree = "<group>"; };
+		1A17055218D8A9040032DE0F /* level5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = level5.plist; sourceTree = "<group>"; };
+		1A17055318D8A9040032DE0F /* level6.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = level6.plist; sourceTree = "<group>"; };
+		1A17055418D8A9040032DE0F /* level7.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = level7.plist; sourceTree = "<group>"; };
+		1A17055618D8A9040032DE0F /* bgMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgMusic.mp3; sourceTree = "<group>"; };
+		1A17055718D8A9040032DE0F /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
+		1A17055818D8A9040032DE0F /* pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pop.mp3; sourceTree = "<group>"; };
+		1A17055918D8A9040032DE0F /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		1A17055A18D8A9040032DE0F /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+		1A17055C18D8A9040032DE0F /* BookTrailer.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = BookTrailer.m4v; sourceTree = "<group>"; };
+		1A17055D18D8A9040032DE0F /* loop.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = loop.mov; sourceTree = "<group>"; };
+		1A17055E18D8A9040032DE0F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1A17056018D8A9040032DE0F /* SKAction+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKAction+SKTExtras.h"; sourceTree = "<group>"; };
+		1A17056118D8A9040032DE0F /* SKAction+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKAction+SKTExtras.m"; sourceTree = "<group>"; };
+		1A17056218D8A9040032DE0F /* SKEmitterNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKEmitterNode+SKTExtras.h"; sourceTree = "<group>"; };
+		1A17056318D8A9040032DE0F /* SKEmitterNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKEmitterNode+SKTExtras.m"; sourceTree = "<group>"; };
+		1A17056418D8A9040032DE0F /* SKNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+SKTExtras.h"; sourceTree = "<group>"; };
+		1A17056518D8A9040032DE0F /* SKNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+SKTExtras.m"; sourceTree = "<group>"; };
+		1A17056618D8A9040032DE0F /* SKTAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTAudio.h; sourceTree = "<group>"; };
+		1A17056718D8A9040032DE0F /* SKTAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTAudio.m; sourceTree = "<group>"; };
+		1A17056818D8A9040032DE0F /* SKTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTUtils.h; sourceTree = "<group>"; };
+		1A17056918D8A9040032DE0F /* SKTUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SKTUtils.mm; sourceTree = "<group>"; };
+		1A17058318D8A93C0032DE0F /* SKSpriteNode+DebugDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKSpriteNode+DebugDraw.h"; sourceTree = "<group>"; };
+		1A17058418D8A93C0032DE0F /* SKSpriteNode+DebugDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKSpriteNode+DebugDraw.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +182,11 @@
 		1A17050D18D8A8590032DE0F /* c1 */ = {
 			isa = PBXGroup;
 			children = (
+				1A17058318D8A93C0032DE0F /* SKSpriteNode+DebugDraw.h */,
+				1A17058418D8A93C0032DE0F /* SKSpriteNode+DebugDraw.m */,
+				1A17054418D8A9040032DE0F /* Art */,
+				1A17055E18D8A9040032DE0F /* Images.xcassets */,
+				1A17055F18D8A9040032DE0F /* SKTUtils */,
 				1A17051618D8A8590032DE0F /* AppDelegate.h */,
 				1A17051718D8A8590032DE0F /* AppDelegate.m */,
 				1A17051918D8A8590032DE0F /* Main_iPhone.storyboard */,
@@ -165,6 +229,90 @@
 				1A17053718D8A8590032DE0F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A17054418D8A9040032DE0F /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				1A17054518D8A9040032DE0F /* Backgrounds */,
+				1A17054A18D8A9040032DE0F /* Code */,
+				1A17054D18D8A9040032DE0F /* Levels */,
+				1A17055518D8A9040032DE0F /* Sounds */,
+				1A17055A18D8A9040032DE0F /* sprites.atlas */,
+				1A17055B18D8A9040032DE0F /* Videos */,
+			);
+			path = Art;
+			sourceTree = "<group>";
+		};
+		1A17054518D8A9040032DE0F /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				1A17054618D8A9040032DE0F /* background-desat.png */,
+				1A17054718D8A9040032DE0F /* background-desat@2x.png */,
+				1A17054818D8A9040032DE0F /* background.png */,
+				1A17054918D8A9040032DE0F /* background@2x.png */,
+			);
+			path = Backgrounds;
+			sourceTree = "<group>";
+		};
+		1A17054A18D8A9040032DE0F /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				1A17054B18D8A9040032DE0F /* perlin.c */,
+				1A17054C18D8A9040032DE0F /* perlin.h */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		1A17054D18D8A9040032DE0F /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				1A17054E18D8A9040032DE0F /* level1.plist */,
+				1A17054F18D8A9040032DE0F /* level2.plist */,
+				1A17055018D8A9040032DE0F /* level3.plist */,
+				1A17055118D8A9040032DE0F /* level4.plist */,
+				1A17055218D8A9040032DE0F /* level5.plist */,
+				1A17055318D8A9040032DE0F /* level6.plist */,
+				1A17055418D8A9040032DE0F /* level7.plist */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		1A17055518D8A9040032DE0F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1A17055618D8A9040032DE0F /* bgMusic.mp3 */,
+				1A17055718D8A9040032DE0F /* lose.mp3 */,
+				1A17055818D8A9040032DE0F /* pop.mp3 */,
+				1A17055918D8A9040032DE0F /* win.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		1A17055B18D8A9040032DE0F /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				1A17055C18D8A9040032DE0F /* BookTrailer.m4v */,
+				1A17055D18D8A9040032DE0F /* loop.mov */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		1A17055F18D8A9040032DE0F /* SKTUtils */ = {
+			isa = PBXGroup;
+			children = (
+				1A17056018D8A9040032DE0F /* SKAction+SKTExtras.h */,
+				1A17056118D8A9040032DE0F /* SKAction+SKTExtras.m */,
+				1A17056218D8A9040032DE0F /* SKEmitterNode+SKTExtras.h */,
+				1A17056318D8A9040032DE0F /* SKEmitterNode+SKTExtras.m */,
+				1A17056418D8A9040032DE0F /* SKNode+SKTExtras.h */,
+				1A17056518D8A9040032DE0F /* SKNode+SKTExtras.m */,
+				1A17056618D8A9040032DE0F /* SKTAudio.h */,
+				1A17056718D8A9040032DE0F /* SKTAudio.m */,
+				1A17056818D8A9040032DE0F /* SKTUtils.h */,
+				1A17056918D8A9040032DE0F /* SKTUtils.mm */,
+			);
+			path = SKTUtils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,9 +392,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A17052618D8A8590032DE0F /* Spaceship.png in Resources */,
+				1A17056D18D8A9040032DE0F /* background@2x.png in Resources */,
+				1A17057218D8A9040032DE0F /* level4.plist in Resources */,
+				1A17057618D8A9040032DE0F /* bgMusic.mp3 in Resources */,
+				1A17057B18D8A9040032DE0F /* BookTrailer.m4v in Resources */,
+				1A17057318D8A9040032DE0F /* level5.plist in Resources */,
+				1A17056C18D8A9040032DE0F /* background.png in Resources */,
+				1A17057518D8A9040032DE0F /* level7.plist in Resources */,
+				1A17057C18D8A9040032DE0F /* loop.mov in Resources */,
+				1A17057D18D8A9040032DE0F /* Images.xcassets in Resources */,
+				1A17057A18D8A9040032DE0F /* sprites.atlas in Resources */,
 				1A17052818D8A8590032DE0F /* Images.xcassets in Resources */,
+				1A17056B18D8A9040032DE0F /* background-desat@2x.png in Resources */,
 				1A17051E18D8A8590032DE0F /* Main_iPad.storyboard in Resources */,
+				1A17056A18D8A9040032DE0F /* background-desat.png in Resources */,
+				1A17057818D8A9040032DE0F /* pop.mp3 in Resources */,
+				1A17057718D8A9040032DE0F /* lose.mp3 in Resources */,
+				1A17056F18D8A9040032DE0F /* level1.plist in Resources */,
 				1A17051B18D8A8590032DE0F /* Main_iPhone.storyboard in Resources */,
+				1A17057918D8A9040032DE0F /* win.mp3 in Resources */,
+				1A17057118D8A9040032DE0F /* level3.plist in Resources */,
+				1A17057418D8A9040032DE0F /* level6.plist in Resources */,
+				1A17057018D8A9040032DE0F /* level2.plist in Resources */,
 				1A17051218D8A8590032DE0F /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,8 +433,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A17058218D8A9040032DE0F /* SKTUtils.mm in Sources */,
+				1A17056E18D8A9040032DE0F /* perlin.c in Sources */,
 				1A17052418D8A8590032DE0F /* MyScene.m in Sources */,
+				1A17057F18D8A9040032DE0F /* SKEmitterNode+SKTExtras.m in Sources */,
 				1A17052118D8A8590032DE0F /* ViewController.m in Sources */,
+				1A17058118D8A9040032DE0F /* SKTAudio.m in Sources */,
+				1A17058518D8A93C0032DE0F /* SKSpriteNode+DebugDraw.m in Sources */,
+				1A17057E18D8A9040032DE0F /* SKAction+SKTExtras.m in Sources */,
+				1A17058018D8A9040032DE0F /* SKNode+SKTExtras.m in Sources */,
 				1A17051818D8A8590032DE0F /* AppDelegate.m in Sources */,
 				1A17051418D8A8590032DE0F /* main.m in Sources */,
 			);
