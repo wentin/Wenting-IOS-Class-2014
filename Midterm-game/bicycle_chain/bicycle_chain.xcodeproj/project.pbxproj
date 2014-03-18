@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A17044A18D84B880032DE0F /* scissor.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A17044918D84B880032DE0F /* scissor.png */; };
+		1A17044C18D84C970032DE0F /* scissor2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A17044B18D84C970032DE0F /* scissor2.png */; };
 		1ADB17AF18D826050038ED10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADB17AE18D826050038ED10 /* Foundation.framework */; };
 		1ADB17B118D826050038ED10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADB17B018D826050038ED10 /* CoreGraphics.framework */; };
 		1ADB17B318D826050038ED10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADB17B218D826050038ED10 /* UIKit.framework */; };
@@ -25,11 +27,6 @@
 		1ADB17DA18D826050038ED10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADB17B218D826050038ED10 /* UIKit.framework */; };
 		1ADB17E218D826050038ED10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB17E018D826050038ED10 /* InfoPlist.strings */; };
 		1ADB17E418D826050038ED10 /* bicycle_chainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB17E318D826050038ED10 /* bicycle_chainTests.m */; };
-		1ADB17F318D8267B0038ED10 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB17EE18D8267B0038ED10 /* circle.png */; };
-		1ADB17F418D8267B0038ED10 /* octagon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB17EF18D8267B0038ED10 /* octagon.png */; };
-		1ADB17F518D8267B0038ED10 /* sand.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB17F018D8267B0038ED10 /* sand.png */; };
-		1ADB17F618D8267B0038ED10 /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB17F118D8267B0038ED10 /* square.png */; };
-		1ADB17F718D8267B0038ED10 /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB17F218D8267B0038ED10 /* triangle.png */; };
 		1ADB17F918D82FCE0038ED10 /* chain.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB17F818D82FCE0038ED10 /* chain.png */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A17044918D84B880032DE0F /* scissor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scissor.png; sourceTree = "<group>"; };
+		1A17044B18D84C970032DE0F /* scissor2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scissor2.png; sourceTree = "<group>"; };
 		1ADB17AB18D826050038ED10 /* bicycle_chain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bicycle_chain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ADB17AE18D826050038ED10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1ADB17B018D826050038ED10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -68,11 +67,6 @@
 		1ADB17DF18D826050038ED10 /* bicycle_chainTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bicycle_chainTests-Info.plist"; sourceTree = "<group>"; };
 		1ADB17E118D826050038ED10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1ADB17E318D826050038ED10 /* bicycle_chainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bicycle_chainTests.m; sourceTree = "<group>"; };
-		1ADB17EE18D8267B0038ED10 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
-		1ADB17EF18D8267B0038ED10 /* octagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = octagon.png; sourceTree = "<group>"; };
-		1ADB17F018D8267B0038ED10 /* sand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sand.png; sourceTree = "<group>"; };
-		1ADB17F118D8267B0038ED10 /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square.png; sourceTree = "<group>"; };
-		1ADB17F218D8267B0038ED10 /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle.png; sourceTree = "<group>"; };
 		1ADB17F818D82FCE0038ED10 /* chain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chain.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -184,12 +178,9 @@
 		1ADB17ED18D8267B0038ED10 /* Shapes */ = {
 			isa = PBXGroup;
 			children = (
+				1A17044B18D84C970032DE0F /* scissor2.png */,
+				1A17044918D84B880032DE0F /* scissor.png */,
 				1ADB17F818D82FCE0038ED10 /* chain.png */,
-				1ADB17EE18D8267B0038ED10 /* circle.png */,
-				1ADB17EF18D8267B0038ED10 /* octagon.png */,
-				1ADB17F018D8267B0038ED10 /* sand.png */,
-				1ADB17F118D8267B0038ED10 /* square.png */,
-				1ADB17F218D8267B0038ED10 /* triangle.png */,
 			);
 			path = Shapes;
 			sourceTree = "<group>";
@@ -278,16 +269,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ADB17CF18D826050038ED10 /* Spaceship.png in Resources */,
-				1ADB17F718D8267B0038ED10 /* triangle.png in Resources */,
-				1ADB17F618D8267B0038ED10 /* square.png in Resources */,
-				1ADB17F518D8267B0038ED10 /* sand.png in Resources */,
-				1ADB17F418D8267B0038ED10 /* octagon.png in Resources */,
 				1ADB17D118D826050038ED10 /* Images.xcassets in Resources */,
+				1A17044A18D84B880032DE0F /* scissor.png in Resources */,
 				1ADB17F918D82FCE0038ED10 /* chain.png in Resources */,
 				1ADB17C718D826050038ED10 /* Main_iPad.storyboard in Resources */,
-				1ADB17F318D8267B0038ED10 /* circle.png in Resources */,
 				1ADB17C418D826050038ED10 /* Main_iPhone.storyboard in Resources */,
 				1ADB17BB18D826050038ED10 /* InfoPlist.strings in Resources */,
+				1A17044C18D84C970032DE0F /* scissor2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

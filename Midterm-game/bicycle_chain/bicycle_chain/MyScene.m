@@ -21,6 +21,8 @@
     SKPhysicsJoint *_joint3;
     SKPhysicsJoint *_joint4;
     
+    SKSpriteNode *_scissor;
+    
     SKSpriteNode *_loose_chain;
 }
 
@@ -113,6 +115,16 @@
         [SKPhysicsBody bodyWithRectangleOfSize:_loose_chain.size];
         [_loose_chain.physicsBody setRestitution:1.0];
         [self addChild:_loose_chain];
+        
+        
+        _scissor = [SKSpriteNode spriteNodeWithImageNamed:@"scissor"];
+        _scissor.position = CGPointMake(self.size.width - _scissor.size.width,
+                                            self.size.height/2);
+        _scissor.physicsBody =
+        [SKPhysicsBody bodyWithRectangleOfSize:_scissor.size];
+        [_scissor.physicsBody setRestitution:1.0];
+        [self addChild:_scissor];
+        
         
         _joint0 = [SKPhysicsJointPin jointWithBodyA:self.physicsBody bodyB:_chain.physicsBody anchor:
                    CGPointMake(0,
