@@ -34,7 +34,12 @@
 
 @end
 
-@implementation MyScene
+@implementation MyScene{
+    SKSpriteNode *_chain;
+    SKSpriteNode *_chain2;
+    SKSpriteNode *_chain3;
+    SKPhysicsJoint *_joint1;
+}
 
 -(void) activateJointRope{
     
@@ -130,6 +135,11 @@
     [self addChild:_mySquare2];
     [self addChild:_mySquare3];
     [self addChild:_mySquare4];
+    
+    _chain = [SKSpriteNode spriteNodeWithImageNamed:@"chain"];
+    _chain.position = CGPointMake(_chain.size.width * 3/14,
+                                  _chain.size.height * 1/2);
+    [self addChild:_chain];
     
 }
 

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AE3527A18D8386900BB52D8 /* chain.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AE3527418D8386900BB52D8 /* chain.png */; };
+		1AE3527B18D8386900BB52D8 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AE3527518D8386900BB52D8 /* circle.png */; };
+		1AE3527C18D8386900BB52D8 /* octagon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AE3527618D8386900BB52D8 /* octagon.png */; };
+		1AE3527D18D8386900BB52D8 /* sand.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AE3527718D8386900BB52D8 /* sand.png */; };
+		1AE3527E18D8386900BB52D8 /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AE3527818D8386900BB52D8 /* square.png */; };
+		1AE3527F18D8386900BB52D8 /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AE3527918D8386900BB52D8 /* triangle.png */; };
 		D56006C418B2896700D0C342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56006C318B2896700D0C342 /* Foundation.framework */; };
 		D56006C618B2896700D0C342 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56006C518B2896700D0C342 /* CoreGraphics.framework */; };
 		D56006C818B2896700D0C342 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56006C718B2896700D0C342 /* UIKit.framework */; };
@@ -37,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AE3527418D8386900BB52D8 /* chain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chain.png; sourceTree = "<group>"; };
+		1AE3527518D8386900BB52D8 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		1AE3527618D8386900BB52D8 /* octagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = octagon.png; sourceTree = "<group>"; };
+		1AE3527718D8386900BB52D8 /* sand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sand.png; sourceTree = "<group>"; };
+		1AE3527818D8386900BB52D8 /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square.png; sourceTree = "<group>"; };
+		1AE3527918D8386900BB52D8 /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle.png; sourceTree = "<group>"; };
 		D56006C018B2896700D0C342 /* 4physicsBodys_Linked_By_RopeJoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 4physicsBodys_Linked_By_RopeJoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D56006C318B2896700D0C342 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D56006C518B2896700D0C342 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -87,6 +99,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AE3527318D8386900BB52D8 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				1AE3527418D8386900BB52D8 /* chain.png */,
+				1AE3527518D8386900BB52D8 /* circle.png */,
+				1AE3527618D8386900BB52D8 /* octagon.png */,
+				1AE3527718D8386900BB52D8 /* sand.png */,
+				1AE3527818D8386900BB52D8 /* square.png */,
+				1AE3527918D8386900BB52D8 /* triangle.png */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		1AE3528018D842AA00BB52D8 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 		D56006B718B2896700D0C342 = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +153,8 @@
 		D56006CB18B2896800D0C342 /* 4physicsBodys_Linked_By_RopeJoint */ = {
 			isa = PBXGroup;
 			children = (
+				1AE3528018D842AA00BB52D8 /* iPad */,
+				1AE3527318D8386900BB52D8 /* Shapes */,
 				D56006D418B2896800D0C342 /* AppDelegate.h */,
 				D56006D518B2896800D0C342 /* AppDelegate.m */,
 				D56006D718B2896800D0C342 /* Main.storyboard */,
@@ -243,8 +277,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AE3527A18D8386900BB52D8 /* chain.png in Resources */,
+				1AE3527F18D8386900BB52D8 /* triangle.png in Resources */,
+				1AE3527E18D8386900BB52D8 /* square.png in Resources */,
+				1AE3527D18D8386900BB52D8 /* sand.png in Resources */,
+				1AE3527C18D8386900BB52D8 /* octagon.png in Resources */,
 				D56006D018B2896800D0C342 /* InfoPlist.strings in Resources */,
 				D56006E318B2896800D0C342 /* Images.xcassets in Resources */,
+				1AE3527B18D8386900BB52D8 /* circle.png in Resources */,
 				D56006E118B2896800D0C342 /* Spaceship.png in Resources */,
 				D56006D918B2896800D0C342 /* Main.storyboard in Resources */,
 			);
@@ -400,9 +440,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "4physicsBodys_Linked_By_RopeJoint/4physicsBodys_Linked_By_RopeJoint-Prefix.pch";
 				INFOPLIST_FILE = "4physicsBodys_Linked_By_RopeJoint/4physicsBodys_Linked_By_RopeJoint-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -417,9 +459,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "4physicsBodys_Linked_By_RopeJoint/4physicsBodys_Linked_By_RopeJoint-Prefix.pch";
 				INFOPLIST_FILE = "4physicsBodys_Linked_By_RopeJoint/4physicsBodys_Linked_By_RopeJoint-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
