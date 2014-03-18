@@ -45,7 +45,7 @@
         _chain.physicsBody =
         [SKPhysicsBody bodyWithRectangleOfSize:_chain.size];
         
-        [_chain.physicsBody setRestitution:1.0];
+        [_chain.physicsBody setRestitution:0.01];
         [self addChild:_chain];
         
 //        
@@ -76,7 +76,7 @@
                                        _chain.position.y);
         _chain2.physicsBody =
         [SKPhysicsBody bodyWithRectangleOfSize:_chain2.size];
-        [_chain2.physicsBody setRestitution:1.0];
+        [_chain2.physicsBody setRestitution:0.01];
         [self addChild:_chain2];
         
         
@@ -85,7 +85,7 @@
                                        _chain2.position.y);
         _chain3.physicsBody =
         [SKPhysicsBody bodyWithRectangleOfSize:_chain3.size];
-        [_chain3.physicsBody setRestitution:1.0];
+        [_chain3.physicsBody setRestitution:0.01];
         [self addChild:_chain3];
         
         
@@ -94,7 +94,7 @@
                                        _chain3.position.y);
         _chain4.physicsBody =
         [SKPhysicsBody bodyWithRectangleOfSize:_chain4.size];
-        [_chain4.physicsBody setRestitution:1.0];
+        [_chain4.physicsBody setRestitution:0.01];
         [self addChild:_chain4];
         
         
@@ -104,7 +104,7 @@
                                        _chain4.position.y);
         _chain5.physicsBody =
         [SKPhysicsBody bodyWithRectangleOfSize:_chain5.size];
-        [_chain5.physicsBody setRestitution:1.0];
+        [_chain5.physicsBody setRestitution:0.01];
         [self addChild:_chain5];
         
         
@@ -113,7 +113,7 @@
                                        self.size.height/2);
         _loose_chain.physicsBody =
         [SKPhysicsBody bodyWithRectangleOfSize:_loose_chain.size];
-        [_loose_chain.physicsBody setRestitution:1.0];
+        [_loose_chain.physicsBody setRestitution:0.01];
         [self addChild:_loose_chain];
         
         
@@ -122,7 +122,7 @@
                                             self.size.height/2);
         _scissor.physicsBody =
         [SKPhysicsBody bodyWithRectangleOfSize:_scissor.size];
-        [_scissor.physicsBody setRestitution:1.0];
+        [_scissor.physicsBody setRestitution:0.01];
         [self addChild:_scissor];
         
         
